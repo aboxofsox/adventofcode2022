@@ -114,9 +114,9 @@ func main() {
 	}
 
 	// part 1
-	//smm := sum(sums)
-	//
-	//fmt.Println(smm)
+	smm := sum(sums)
+
+	fmt.Println(smm)
 
 	// part 2
 	tp := threePart(lines, 3)

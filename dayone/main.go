@@ -15,7 +15,7 @@ func readInput() string {
 		return ""
 	}
 
-	return fmt.Sprintf("%s\n", string(b))
+	return string(b)
 }
 
 func splitter(s string) []string {
